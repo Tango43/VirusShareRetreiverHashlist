@@ -15,5 +15,7 @@ for ((i=100;i<=312;i++)); do
 	wget https://virusshare.com/hashes/VirusShare_00$i.md5 &
 done
 
+cat hashlists/* > VirusTotalBlacklistDB
+
 
 
