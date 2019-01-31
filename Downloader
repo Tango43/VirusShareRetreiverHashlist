@@ -11,7 +11,7 @@ for ((i=10;i<=99;i++)); do
 	wget https://virusshare.com/hashes/VirusShare_000$i.md5 &
 done
 
-for ((i=100;i<=312;i++)); do
+for ((i=100;i<=353;i++)); do
 	wget https://virusshare.com/hashes/VirusShare_00$i.md5 &
 done
 
